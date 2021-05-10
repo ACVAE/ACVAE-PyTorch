@@ -20,7 +20,7 @@ from tensorboardX import SummaryWriter
 os.environ['CUDA_VISIBLE_DEVICES'] = "0"
 
 hyper_params = {
-    # dataset to use (model_dat/) [ml-1m, ml-latest, ml-10m] provided
+    # dataset to use (datasets/) [ml-1m, ml-latest, ml-10m] provided
     'dataset_path': 'ml-1m',
     # alpha
     'kl_weight': 0.05,

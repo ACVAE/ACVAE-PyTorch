@@ -3,9 +3,11 @@ PyTorch Code for Adversarial and Contrastive AutoEncoder for Sequential Recommen
 
 
 ## Usage
-- PyTorch 1.6
+- python 3.6+
+- PyTorch
 - tqdm
 - tensorboardX
+- numpy
 
 Run `train.py`:
 
